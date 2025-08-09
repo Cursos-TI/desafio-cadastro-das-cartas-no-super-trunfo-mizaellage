@@ -3,38 +3,45 @@
 int main () {
 
 
-    printf ("Desafio do Super Trunfo-países");
+    printf ("Desafio do Super Trunfo-países\n");
 
-    char carta1;
-    char s;
-    int s01;
+    // Variáveis para a primeira carta
+
+    char estado1 [50];
+    char codigo1 [4];
    
 
+   //Variáveis da segunda carta
 
-    char carta2;
-    char r;
-    int r02;
-    
-
-
-    printf ("Cadastro da primeira carta");
-    scanf ("%s",&carta1);
-    
-
-    printf ("Cadastro do primeiro Estado\n");
-    scanf ("%s",&s);
-    
-
-    printf ("Cadastro do primeiro código");
-    scanf ("%d", s01);
+   char estado2 [50];
+   char codigo2 [4];
 
 
-    printf ("Cadastro da segunda carta");
-    scanf ("Cadastro do segundo Estado");
 
+   //Leitura do Estado da primeira carta
+   printf ("Digite o estado da primeira carta\n");
+   scanf ("%s",&estado1);
 
-    printf ("Cadastro do segundo código");
-    scanf ("%d", r02);
+   
+
+   //Leitura do código da primeira carta
+   printf ("Digite o código da primeira carta\n");
+   scanf ("%s",codigo1);
+
+   
+   //Leitura do Estado da segunda carta
+   printf ("Digite o estado da segunda carta\n");
+   scanf ("%s",&estado2);
+
+   //Leitura do código da segunda carta
+
+   printf ("Digite o código da segunda carta\n");
+   scanf ("%s",codigo2);
+
+   
+   
+   
+   
 
   
 
